@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" fill="none">
+  <!-- Rifle stock -->
+  <rect x="5" y="40" width="28" height="14" rx="3" fill="#5a6673"/>
+  <!-- Rifle body -->
+  <rect x="30" y="36" width="55" height="12" rx="3" fill="#4a5568"/>
+  <!-- Barrel -->
+  <rect x="83" y="39" width="32" height="6" rx="2" fill="#2d3748"/>
+  <!-- Magazine -->
+  <rect x="52" y="48" width="12" height="20" rx="3" fill="#5a6673"/>
+  <!-- Grip -->
+  <rect x="36" y="46" width="10" height="18" rx="3" fill="#5a6673"/>
+  <!-- Stock detail -->
+  <rect x="7" y="44" width="20" height="3" rx="1" fill="#718096"/>
+  <!-- Gas tube -->
+  <rect x="65" y="34" width="20" height="4" rx="2" fill="#2d3748"/>
+  <!-- Sight -->
+  <rect x="85" y="36" width="3" height="4" rx="1" fill="#a67c2e"/>
+  <rect x="40" y="33" width="3" height="4" rx="1" fill="#a67c2e"/>
+</svg>
