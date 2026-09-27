@@ -1,6 +1,8 @@
+import InstallButton from './InstallButton.jsx'
+
 const NAV = ['Catalog', 'About', 'Contact']
 
-function Header({ tab, onTab }) {
+function Header({ tab, onTab, cartCount = 0 }) {
   return (
     <header className="header">
       <span className="brand display">Bore &amp; Barrel</span>
@@ -9,12 +11,21 @@ function Header({ tab, onTab }) {
           <button
             key={item}
             type="button"
-            className={`nav-link${tab === item ? ' active' : ''}`}
+            className={tab === item ? 'nav-link active' : 'nav-link'}
             onClick={() => onTab(item)}
           >
             {item}
           </button>
         ))}
+        <button
+          type="button"
+          className={tab === 'Cart' ? 'nav-link nav-cart active' : 'nav-link nav-cart'}
+          onClick={() => onTab('Cart')}
+        >
+          Keranjang
+          {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
+        </button>
+        <InstallButton />
       </nav>
     </header>
   )
